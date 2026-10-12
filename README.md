@@ -1,4 +1,4 @@
-# intercommunication-notes
+# team-handoffs
 
 One place where teams hand off requirements to each other and keep informal notes.
 
