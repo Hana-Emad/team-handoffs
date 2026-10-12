@@ -51,12 +51,12 @@ A code of `—` means the check happens in the frontend only, before calling the
 | Terms line | By continuing, you agree to our Terms of Service and Privacy Policy. |
 | Footer link | Already have an account? Log in |
 
-| Code                  | When                  | Message                                                |
-| --------------------- | --------------------- | ------------------------------------------------------ |
-| —                     | Email empty           | Please enter your email address.                       |
-| `AUTH_EMAIL_INVALID`  | Email format is wrong | This doesn't look like a valid email address.          |
-| `COMMON_RATE_LIMITED` | Too many attempts     | Too many attempts. Please try again in a few minutes.  |
-| `AUTH_GOOGLE_FAILED`  | Google sign-in failed | We couldn't sign you in with Google. Please try again. |
+| Code | When | Message |
+|---|---|---|
+| — | Email empty | Please enter your email address. |
+| `AUTH_EMAIL_INVALID` | Email format is wrong | This doesn't look like a valid email address. |
+| `COMMON_RATE_LIMITED` | Too many attempts | Too many attempts. Please try again in a few minutes. |
+| `AUTH_GOOGLE_FAILED` | Google sign-in failed | We couldn't sign you in with Google. Please try again. |
 
 ### Screen: Email verification
 
@@ -215,10 +215,12 @@ Shown only if the user has two-factor authentication turned on.
 
 - Fallback message for unknown errors. Suggestion: "Something went wrong. Please try again."
 - Backend to confirm the final error codes.
+- Arabic versions of all texts are still needed (Arabic is the default language, see `shared/ALL-001-frontend-foundations.md`).
 
 ## Not in MVP
 
 - Phone number sign-up with WhatsApp OTP (SMS fallback)
+- Continue with Facebook (also connects Facebook page / Instagram / WhatsApp Business)
 
 ## Changes
 

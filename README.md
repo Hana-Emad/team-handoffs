@@ -1,4 +1,4 @@
-# team-handoffs
+# intercommunication-notes
 
 One place where teams hand off requirements to each other and keep informal notes.
 
@@ -13,6 +13,7 @@ This is **not** formal documentation. It's a shared notebook: what we asked each
 | Full stack & security | Security | `SEC` | `fullstack-security/security/` |
 | AI | AI Agent | `AGT` | `ai/agent/` |
 | AI | AI Data | `DATA` | `ai/data/` |
+| Everyone | Shared | `ALL` | `shared/` |
 
 ## Folders
 
@@ -25,7 +26,7 @@ Each team folder has:
 Other folders:
 
 - `templates/` has the files to copy when you start something new.
-- `shared/` is for things that belong to everyone (glossary, cross-team decisions).
+- `shared/` is for things that belong to everyone: decisions all teams must follow, and requests with no single receiving team. Use `ALL` as the code and `to: everyone`.
 
 ## How to send a request to another team
 
